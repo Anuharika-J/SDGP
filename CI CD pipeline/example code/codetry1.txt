@@ -1,0 +1,54 @@
+// pipeline{
+//     agent any
+//
+//     stages{
+//         stage(' Compile Stage'){
+//
+//         withPython(Python: ){
+//             sh 'mvn test'
+//             }
+//         }
+//     }
+//     stage('Testing Stage'){
+//     steps{
+//         withPython(){
+//         sh 'mvn test'
+//         }
+//     }
+//
+//     }
+//
+// }
+
+pipeline {
+  agent any
+
+  stages {
+    stage('Checkout') {
+      steps {
+        checkout scm
+      }
+    }
+
+    stage('Build') {
+      steps {
+        sh 'npm install'
+        sh 'npm run build'
+      }
+    }
+
+    stage('Test') {
+      steps {
+        sh 'npm run test'
+      }
+    }
+
+    stage('Deploy') {
+      steps {
+        sshagent(['my-ssh-key']) {
+          sh 'ssh user@my-server "cd /path/to/app && git pull origin master && npm install && pm2 restart my-app"'
+        }
+      }
+    }
+  }
+}
