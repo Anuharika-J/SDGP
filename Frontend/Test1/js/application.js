@@ -96,7 +96,7 @@ function createDownloadLink(blob) {
 	var link = document.createElement('a');
 
 	//name of .wav file 
-	var filename = new Date().toISOString();
+	var filename ="input";
 
 	au.controls = true;
 	au.src = url;
