@@ -62,11 +62,11 @@
 
 
 .session-4-title{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-family: 'Radio Canada';
+display: flex;
+justify-content: center;
+padding-top: 50px;
+padding-bottom: 50px;
+font-family: 'Radio Canada';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
@@ -83,23 +83,32 @@ align-items: center;
 
 
 .contact-1{
-    border: 1px solid red;
-
+    padding: 20px;
+    text-decoration: none;
+    background-color: #ad78df;
+    border-radius: 50px;
     font-family: 'Radio Canada';
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 32px;
     display: flex;
     align-items: center;
     text-align: center;
     
 }
+.name{
+    background-color: #ad78df;
+}
 
 .contact-2{
+    padding: 20px;
+    text-decoration: none;
+    background-color: #ad78df;
+    border-radius: 50px;
     font-family: 'Radio Canada';
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     display: flex;
@@ -109,9 +118,13 @@ align-items: center;
 }
 
 .contact-3{
+    padding: 20px;
+    text-decoration: none;
+    background-color: #ad78df;
+    border-radius: 50px;
     font-family: 'Radio Canada';
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     display: flex;
@@ -128,9 +141,13 @@ align-items: center;
 }
 
 .contact-4{
+    padding: 20px;
+    text-decoration: none;
+    background-color: #ad78df;
+    border-radius: 50px;
     font-family: 'Radio Canada';
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     display: flex;
@@ -139,9 +156,13 @@ align-items: center;
 }
 
 .contact-5{
+    padding: 20px;
+    text-decoration: none;
+    background-color: #ad78df;
+    border-radius: 50px;
     font-family: 'Radio Canada';
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     display: flex;
