@@ -59,3 +59,53 @@
     font-size: 30px;
     line-height: 51px;
 }
+
+.session-2-about-content-1{
+    padding: 30px;
+    padding-right: 800px;
+    text-align: left;
+    font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+
+}
+
+.session-2-about-content-2{
+    padding: 10px;
+    padding-left: 80px;
+    text-align: left;
+    font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+}
+
+.session-2 img{
+    position: absolute;
+width: 800px;
+height: 400px;
+left: 1800px;
+top: 400px;
+}
+
+
+.session-3-detecting-depression{
+    margin-top: 300px;
+    text-align: left;
+    font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+
+margin-left: 1000px;
+}
+
+.session-3 img{
+    position: absolute;
+    margin-top: 300px;
+    width: 800px;
+}
