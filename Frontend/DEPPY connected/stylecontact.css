@@ -65,7 +65,7 @@
 display: flex;
 justify-content: center;
 padding-top: 50px;
-padding-bottom: 50px;
+padding-bottom: 5px;
 font-family: 'Radio Canada';
 font-style: normal;
 font-weight: 500;
@@ -74,6 +74,7 @@ line-height: 43px;
 display: flex;
 align-items: center;
 }
+
 
 .session-4-title-links-content-1{
     display: flex;
