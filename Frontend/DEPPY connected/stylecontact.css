@@ -1,173 +1,174 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+    margin          : 0;
+    padding         : 0;
+    box-sizing      : border-box;
     background-color: #E7BFD7;
-    
-}
-
-.nav-bar{
-    
-    background-color:#CE4196;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.nav-bar-section-1{
-  
-    display: flex;
-    background-color:#CE4196;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-link-container{
-    
-    background-color:#CE4196;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 30%;
 
 }
 
-.logo{
-    display: flex;
-    background-color:#CE4196;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10px;
+.nav-bar {
+
+    background-color: #CE4196;
+    padding-top     : 10px;
+    padding-bottom  : 10px;
 }
 
-.logo h1{
-    background-color:#CE4196;
+.nav-bar-section-1 {
+
+    display         : flex;
+    background-color: #CE4196;
+    justify-content : space-between;
+    align-items     : center;
 }
 
-.logo img{
-    background-color:#CE4196;
+.nav-link-container {
+
+    background-color: #CE4196;
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    width           : 40%;
+
 }
 
-.nav-link{
-   
-    text-decoration: none;
-    margin-right: 50px;
-    color: black;
-    background-color:#CE4196;
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 51px;
+.logo {
+    display         : flex;
+    background-color: #CE4196;
+    justify-content : space-between;
+    align-items     : center;
+    padding-left    : 10px;
+}
+
+.logo h1 {
+    background-color: #CE4196;
+}
+
+.logo img {
+    background-color: #CE4196;
+}
+
+.nav-link {
+
+    text-decoration : none;
+    margin-right    : 50px;
+    color           : black;
+    background-color: #CE4196;
+    font-family     : 'Lora';
+    font-style      : normal;
+    font-weight     : 400;
+    font-size       : 30px;
+    line-height     : 51px;
 }
 
 
-.session-4-title{
-display: flex;
-justify-content: center;
-padding-top: 50px;
-padding-bottom: 5px;
-font-family: 'Radio Canada';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 43px;
-display: flex;
-align-items: center;
-}
-
-
-.session-4-title-links-content-1{
-    display: flex;
+.session-4-title {
+    display        : flex;
     justify-content: center;
-    margin-top: 100px;
+    padding-top    : 50px;
+    padding-bottom : 5px;
+    font-family    : 'Radio Canada';
+    font-style     : normal;
+    font-weight    : 500;
+    font-size      : 24px;
+    line-height    : 43px;
+    display        : flex;
+    align-items    : center;
 }
 
 
-.contact-1{
-    padding: 40px;
-    text-decoration: none;
-    background-color: #ad78df;
-    border-radius: 50px;
-    font-family: 'Radio Canada';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-}
-.name{
-    background-color: #ad78df;
-}
-
-.contact-2{
-    padding: 40px;
-    text-decoration: none;
-    background-color: #ad78df;
-    border-radius: 50px;
-    font-family: 'Radio Canada';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: 80px;
-}
-
-.contact-3{
-    padding: 40px;
-    text-decoration: none;
-    background-color: #ad78df;
-    border-radius: 50px;
-    font-family: 'Radio Canada';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: 100px;   
-}
-
-.session-4-title-links-content-2{
-    display: flex;
+.session-4-title-links-content-1 {
+    display        : flex;
     justify-content: center;
-    padding-top: 80px;
-    padding-bottom: 40px;
+    margin-top     : 100px;
 }
 
-.contact-4{
-    padding: 40px;
-    text-decoration: none;
+
+.contact-1 {
+    padding         : 40px;
+    text-decoration : none;
     background-color: #ad78df;
-    border-radius: 50px;
-    font-family: 'Radio Canada';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-align: center; 
+    border-radius   : 50px;
+    font-family     : 'Radio Canada';
+    font-style      : normal;
+    font-weight     : bold;
+    font-size       : 24px;
+    line-height     : 32px;
+    display         : flex;
+    align-items     : center;
+    text-align      : center;
+
 }
 
-.contact-5{
-    padding: 40px;
-    text-decoration: none;
+.name {
     background-color: #ad78df;
-    border-radius: 50px;
-    font-family: 'Radio Canada';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-align: center; 
-    margin-left: 80px;
+}
+
+.contact-2 {
+    padding         : 40px;
+    text-decoration : none;
+    background-color: #ad78df;
+    border-radius   : 50px;
+    font-family     : 'Radio Canada';
+    font-style      : normal;
+    font-weight     : bold;
+    font-size       : 24px;
+    line-height     : 29px;
+    display         : flex;
+    align-items     : center;
+    text-align      : center;
+    margin-left     : 80px;
+}
+
+.contact-3 {
+    padding         : 40px;
+    text-decoration : none;
+    background-color: #ad78df;
+    border-radius   : 50px;
+    font-family     : 'Radio Canada';
+    font-style      : normal;
+    font-weight     : bold;
+    font-size       : 24px;
+    line-height     : 29px;
+    display         : flex;
+    align-items     : center;
+    text-align      : center;
+    margin-left     : 100px;
+}
+
+.session-4-title-links-content-2 {
+    display        : flex;
+    justify-content: center;
+    padding-top    : 80px;
+    padding-bottom : 40px;
+}
+
+.contact-4 {
+    padding         : 40px;
+    text-decoration : none;
+    background-color: #ad78df;
+    border-radius   : 50px;
+    font-family     : 'Radio Canada';
+    font-style      : normal;
+    font-weight     : bold;
+    font-size       : 24px;
+    line-height     : 29px;
+    display         : flex;
+    align-items     : center;
+    text-align      : center;
+}
+
+.contact-5 {
+    padding         : 40px;
+    text-decoration : none;
+    background-color: #ad78df;
+    border-radius   : 50px;
+    font-family     : 'Radio Canada';
+    font-style      : normal;
+    font-weight     : bold;
+    font-size       : 24px;
+    line-height     : 29px;
+    display         : flex;
+    align-items     : center;
+    text-align      : center;
+    margin-left     : 80px;
 }
