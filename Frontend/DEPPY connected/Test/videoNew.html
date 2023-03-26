@@ -4,60 +4,98 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../stylehome.css">
+
         <title>Video for facial recognition</title>
     </head>
 
 
     <style>
-    body{
-        font-family: "Josefin Sans", sans-serif;
-        font-size: 20px;
-        padding: 0;
-        margin-top:20px;
-        font-weight: 400;
-        position: center;
-        background-image: -moz-linear-gradient(90deg, #e82a7a 0%, #360354 100%);
-        background-image: -webkit-linear-gradient(90deg, #e82a7a 0%, #360354 100%);
-        background-image: -ms-linear-gradient(90deg, #e82a7a 0%, #360354 100%);
-        align-items:center;
-        justify-content:center;
-        }
     h2{
-        margin-top: 20px;
-        margin-left: 300px;
-        margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-bottom: 12px;
+    color: rgb(0, 8, 14);
     }
-
-    h2{
-            color: aliceblue;
-        }
+          
     h3{
-        color: rgb(242, 203, 48);
-    }
-
-    .btn {
-    text-decoration: none;
-    border:12px;
-    background-color:#E7BFD7;
+    background-color:#d07fee;
     padding: 14px 28px;
     font-weight: bold;
     font-size: 20px;
     border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+    color: rgb(14, 18, 14)
+    }
+
+    .btn1 {
+    text-decoration: none;
+    border:12px;
+    background-color:#ee7fc1;
+    padding: 14px 28px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 5px;
     margin-left: 300px;
     cursor: pointer;
     display: inline-block;
     color: rgb(14, 18, 14);
+    }
+    .btn2 {
+    text-decoration: none;
+    border:12px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    background-color:#ee7fc1;;
+    padding: 14px 28px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    display: inline-block;
+    color: rgb(14, 18, 14);
+    }
+
+    iframe{
+        margin-left: 200px;
     }
     
     .btn:hover {background: #e1c809;}
 
     </style>
     <body>
+        <div class="nav-bar">
+
+            <div class="nav-bar-section-1">
+    
+                <div class="logo">
+    
+                    <img src="../Images/image 1.png" alt="">
+                    <h1>DEPPY</h1>
+                </div>
+    
+                <div class="nav-link-container">
+                    <a href="../home.html" class="nav-link">Home</a>
+                    <a href="../about.html" class="nav-link">About</a>
+                    <a href="test1.html" class="nav-link">Test</a>
+                    <a href="../contact.html" class="nav-link">Contact</a>
+                </div>
+    
+            </div>
+    
+        </div>
         <h2>Test Video</h2>
         <h3> Your facial emotions will be recorded here.</h3>
 
-        <div>
-            <iframe allow="autoplay;"
+        <div >
+            <iframe id="video" allow="autoplay;"
             allowfullscreen style="border:none" 
             src="https://clipchamp.com/watch/Zx5dfu28UNu/embed" 
             width="640" 
@@ -66,13 +104,9 @@
             </iframe>
         </div>
 <div>
-<<<<<<< HEAD
   <a href="../home.html" class="btn1">Home Page</a>
   <a href="../results.html" class="btn2">View Results</a>
 
-=======
-  <a href="../home.html" class="btn">Home Page</a>
->>>>>>> 84afc310a3febf1fc288d578e352c5ccd77d893b
 
 </div>
         
