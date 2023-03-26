@@ -110,13 +110,13 @@
 .session-2 img {
     position: absolute;
     width   : 500px;
-    height  : 300px;
-    left    : 920px;
-    top     : 180px;
+    height  : 200px;
+    left    : 800px;
+    top     : 350px;
 }
 
 .session-3-detecting-depression {
-    margin-top             : 10px;
+    margin-top             : 90px;
     text-align             : left;
     font-family            : 'Lora';
     font-style             : normal;
@@ -127,8 +127,8 @@
     background-color       : #95b6f0;
     padding                : 20px;
     margin-right           : 10px;
+    border-top-left-radius : 20px;
     border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
 
 }
 
@@ -150,12 +150,11 @@
 .session-3-detecting-depression-content-1 ul li {
     background-color: #95b6f0;
     margin-left     : 90px;
-    font-weight: bold;
 
 }
 
 .session-3 img {
     position  : absolute;
-    margin-top: 147px;
-    width     : 550px;
+    margin-top: 180px;
+    width     : 500px;
 }
