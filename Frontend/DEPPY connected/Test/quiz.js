@@ -2,8 +2,6 @@ const start = document.getElementById("start");
 const quiz = document.getElementById("quiz");
 const question = document.getElementById("question");
 const qImg = document.getElementById("qImg");
-//const counter = document.getElementById("counter");
-//const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
 
@@ -11,43 +9,42 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "what is your name?",
-        imgSrc : "img/logo.png",
+        
        
     },{
         question : "How old are you?",
-        imgSrc : "img/logo.png",
+       
         
     },{
         question : "In which country did you spend most of your life?",
-        imgSrc : "img/logo.png",
+      
         
       },{
         question : "What's something you have achieved that you are most proud of and why?",
-        imgSrc : "img/logo.png",
+        
        
       },{
         question : "Who are some of your top role models, why do they inspire you?",
-        imgSrc : "img/logo.png",
+      
        
       },{
         question:  "How do you celebrate success?",
-        imgSrc : "img/logo.png",
        
       },{
         question:  "What kind of behaviour makes you angry/annoyed?",
-        imgSrc : "img/logo.png",
+       
         
       },{
         question:  "Compare to your collagues or friends, do you consider yourself happier than most of them?",
-        imgSrc : "img/logo.png",
+       
        
       },{
         question:  "How do you recover from failure?",
-        imgSrc : "img/logo.png",
+        
        
       },{
         question:  "Do you have any other concerns that you would like to mention?",
-        imgSrc : "img/logo.png",
+       
        
     }
 ];
@@ -68,7 +65,7 @@ function renderQuestion(){
     let q = questions[runningQuestion];
 
     question.innerHTML = "<p>"+ q.question +"</p>";
-    qImg.innerHTML = "<img src="+ q.imgSrc +">";
+    //qImg.innerHTML = "<img src="+ q.imgSrc +">";
 	
 }
 

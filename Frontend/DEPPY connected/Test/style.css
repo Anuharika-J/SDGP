@@ -75,6 +75,7 @@ body{
     position: relative;
 	color:white;
 	font-weight:bolder;
+	margin-right:300px;
 	
 }
 #start{
@@ -129,6 +130,7 @@ body{
     right:0;
     top:0px;
 	color:black;
+	margin-right:300px;
 }
 #question p{
     margin : 0;
@@ -237,7 +239,7 @@ body{
     -o-transition: background-size 0.3s;
     transition: background-size 0.3s;
     color:blue;
-	margin-left:900px;
+	margin-left:600px;
 	margin-bottom:100px;
 	position:relative;
 	
