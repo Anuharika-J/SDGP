@@ -1,16 +1,16 @@
 Probability Report:
 ===================
-Neutral: 0.00%
-Sadness: 0.00%
+Neutral: 86.91%
+Sadness: 3.40%
 - - - - - - - - - - 
 Surprise: 0.00%
 Disgust: 0.00%
-Happiness: 0.00%
-Anger: 0.00%
+Happiness: 2.62%
+Anger: 7.07%
 Fear: 0.00%
 
 
-Depression prob% : 0.00%
-Non-Depression prob%: 0.00%
+Depression prob% : 46.86%
+Non-Depression prob%: 49.61%
 
 PREDICTION: No depression detected
