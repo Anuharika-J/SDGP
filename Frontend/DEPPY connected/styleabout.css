@@ -110,13 +110,13 @@
 .session-2 img {
     position: absolute;
     width   : 500px;
-    height  : 200px;
-    left    : 800px;
-    top     : 350px;
+    height  : 310px;
+    left    : 930px;
+    top     : 170px;
 }
 
 .session-3-detecting-depression {
-    margin-top             : 90px;
+    margin-top             : 10px;
     text-align             : left;
     font-family            : 'Lora';
     font-style             : normal;
@@ -155,6 +155,6 @@
 
 .session-3 img {
     position  : absolute;
-    margin-top: 180px;
+    margin-top: 157px;
     width     : 500px;
 }
