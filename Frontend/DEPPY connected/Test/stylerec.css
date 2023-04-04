@@ -4,12 +4,6 @@ a {
 p {
   margin-top: 1rem;
 }
-/*a:hover {
-  color:#23527c;
-}
-a:visited {
-  color: #8d75a3;
-}*/
 
 body {
 	line-height: 1.5;
@@ -20,7 +14,6 @@ body {
 	justify-content:center;
 	align-items:center;
 	color:black;
-	margin:2em;
 	background-color:#E7BFD7;
 }
 
